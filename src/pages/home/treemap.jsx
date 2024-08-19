@@ -118,9 +118,6 @@ const Map = () => {
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
-      console.log(
-        dataInShow.find((data) => data.name === payload[0].payload.name)
-      );
       return (
         <div className="d-flex flex-column justify-content-center align-items-center bg-light p-2 rounded-1">
           <span>{payload[0].payload.name}</span>

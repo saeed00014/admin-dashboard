@@ -4,13 +4,13 @@ import Insight from "./insight";
 import Table from "./table";
 import PieChart2 from "./pieCharts";
 import BarChart2 from "./barChart";
-import Treemap from "./treemap";
 import Map from "./treemap";
+import IntractiveMap from "./intractiveMap/intractiveMap";
 
 const Home = () => {
   return (
-    <div className="container-fluid h-100 ">
-      <div className="home vh-100">
+    <div style={{ height: "fit-content" }} className="container-fluid">
+      <div className="home">
         <div
           style={{ minHeight: "20rem" }}
           className="row gap-xl-0 gap-3 pt-lg-3 py-2 px-1"
@@ -25,6 +25,11 @@ const Home = () => {
         <div className="row gap-xl-0 gap-3 py-2 px-1">
           <div className="col-xl-12 px-1 px-lg-2 px-1">
             <Map />
+          </div>
+        </div>
+        <div style={{ height: "40rem" }} className="row py-2 px-1">
+          <div className="d-flex w-100 col-12 px-lg-2 px-1">
+            <IntractiveMap />
           </div>
         </div>
         <div

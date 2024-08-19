@@ -14,7 +14,7 @@ const Offconvas = () => {
           <span className="">پنل ادمین</span>
         </h5>
       </div>
-      <div className="offcanvas-body p-0 directionDiv">
+      <div className="offcanvas-body p-0">
         <nav>
           <ul className="navbar-nav px-3 gap-4">
             <li data-bs-dismiss="offcanvas">

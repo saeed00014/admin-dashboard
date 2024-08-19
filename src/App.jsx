@@ -9,10 +9,7 @@ function App() {
     <Router>
       <Header />
       <Sidebar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <Home />
     </Router>
   );
 }

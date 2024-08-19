@@ -122,3 +122,38 @@ export const dataSet = [
   { name: "قطعه خودرو", size: 20 },
   { name: "فرش", size: 10 },
 ];
+
+export const branchPositions = {
+  viewPosition: [32.702331, 54.56974],
+  mashhadBranch: [36.322821, 59.62596],
+  isfahanBranch: [32.681181, 51.682982],
+  tehranBranch: [35.754671, 51.31743],
+  shirazBranch: [29.61051, 52.500546],
+};
+
+export const branchesInfo = [
+  {
+    name: "تهران",
+    status: "فعال",
+    numberOfOrders: "50",
+    position: [35.754671, 51.31743],
+  },
+  {
+    name: "اصفهان",
+    status: "فعال",
+    numberOfOrders: "38",
+    position: [32.681181, 51.682982],
+  },
+  {
+    name: "مشهد",
+    status: "فعال",
+    numberOfOrders: "43",
+    position: [36.322821, 59.62596],
+  },
+  {
+    name: "شیراز",
+    status: "عدم فعالیت",
+    numberOfOrders: "",
+    position: [29.61051, 52.500546],
+  },
+];
